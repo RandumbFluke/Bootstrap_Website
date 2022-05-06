@@ -1,0 +1,110 @@
+.socialmediaimages{
+    width: 50px;
+    height: 50px;
+}
+
+.info-section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #DC143C;
+}
+
+.map-section{
+    padding-top: 30px;
+}
+
+.member-section{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: #DC143C;
+}
+
+.box{
+    border: red;
+}
+
+.text-size{
+    font-size: 18px;
+}
+
+.footer-section{
+    padding-top: 20px;
+}
+
+main{
+    padding-top: 30px;
+    background-color: rgb(40,40,40);
+}
+
+p{
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.banner{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../Images/banner.jpg") center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.centre{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+form select, form input{
+    display: block;
+    width: 100%;
+    margin: 15px 12px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #eee;
+    font-weight: 300;
+}
+
+form input[type = text], form input [type = number], form input::placeholder select{
+    color: #9a9a9a;
+}
+
+form input[type = submit]{
+    color: #fff;
+    background: #f2745f;
+    padding: 12px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type = submit]:hover{
+    opacity: 0.9;
+}
+
+@media(max-width:992px){
+    .card-container{
+        grid-template-columns: 100%;
+    }
+
+    .card-img{
+        height: 330px;
+    }
+}

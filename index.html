@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Switch Gear Website</title>
+
+</head>
+
+<body>
+    <header>
+        <!-- Begin Nav Bar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="Images/switch logo.png" alt="" width="120" height="40">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#About Us">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Reservation">Reservation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Map">Find a Bike</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Member">Membership</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End Nav Bar -->
+    </header>
+
+    <main>
+
+        <!-- Begin Carousel -->
+        <div class="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Images/bristol.jpg" class="d-block w-100" alt="0">
+                        <div class="carousel-caption d-block">
+                            <a href="#Reservation">
+                                <button type="button" class="btn btn-success">Reservation</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/cyclists.jpg" class="d-block w-100" alt="1">
+                        <div class="carousel-caption d-block">
+                            <a href="#Member">
+                                <button type="button" class="btn btn-success">Become a Member</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/bikes on bridge.jpg" class="d-block w-100" alt="2">
+                        <div class="carousel-caption d-block">
+                            <a href="#Map">
+                                <button type="button" class="btn btn-success">Find a Bike</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/girl with bike.jpg" class="d-block w-100" alt="3">
+                        <div class="carousel-caption d-block">
+                            <a href="#About Us">
+                                <button type="button" class="btn btn-success">Learn More</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- End Carousel -->
+
+        <!-- Begin Lead Copy -->
+        <div class="info-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6" id="About Us">
+                        <p class="centre">
+                            <strong>About Us</strong>
+                        </p>
+                        <p class="lead centre">
+                            A community service which is here to promote the wellbeing of the environment and increase
+                            the health of our community.
+                            We as the Bristol community have decided to scatter multiple bikes around the city and with
+                            a few main hub locations in major locations,
+                            this will allow for multiple sight-seeing experiences of our great city while spreading a
+                            new culture to our amazing community.
+                            We hope this will encourage our audience to become more eco-friendly and stray away from
+                            polluting vehicles.
+                        </p>
+                    </div>
+                    <div class="row col-sm-6 col-md-6 col-lg-6 centre">
+                        <p class="centre">
+                            <strong>How it Works</strong>
+                        </p>
+                        <p class="lead centre">
+                            To hire a bike, you must first become a member, learn more by pressing the button! Either
+                            using our
+                            reservation form or finding a bike on the map.
+                            Once at a bike pay to unlock the bike and then ride away, however all bikes must be returned
+                            to a designated spot, shown on the map.
+                        </p>
+                        <a href="#Member">
+                            <button type="button" class="btn btn-success" alt="Member button">Become a Member</button>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- End Lead Copy -->
+
+
+        <!-- Reservation Form Begin -->
+        <div id="Reservation">
+
+            <section class="banner">
+                <h2>Hire a Bike!</h2>
+                <div class="card-container">
+
+                    <div class="card-content">
+                        <!-- <h3>Reservation</h3> -->
+                        <form>
+                            <div class="form-row">
+                                <select name="days">
+                                    <option value="day-select">Select Day</option>
+                                    <option value="monday">Monday</option>
+                                    <option value="tuesday">Tuesday</option>
+                                    <option value="wednesday">Wednesday</option>
+                                    <option value="thursday">Thursday</option>
+                                    <option value="friday">Friday</option>
+                                    <option value="saturday">Saturday</option>
+                                    <option value="sunday">Sunday</option>
+                                </select>
+
+                                <select name="hours">
+                                    <option value="time-select">Select Time</option>
+                                    <option value="8">8:00</option>
+                                    <option value="8:30">8:30</option>
+                                    <option value="9">9:00</option>
+                                    <option value="9:30">9:30</option>
+                                    <option value="10">10:00</option>
+                                    <option value="10:30">10:30</option>
+                                    <option value="11">11:00</option>
+                                    <option value="11:30">11:30</option>
+                                    <option value="12">12:00</option>
+                                    <option value="12:30">12:30</option>
+                                    <option value="13">13:00</option>
+                                    <option value="13">13:30</option>
+                                    <option value="14">14:00</option>
+                                    <option value="14:30">14:30</option>
+                                    <option value="15">15:00</option>
+                                    <option value="15:30">15:30</option>
+                                    <option value="16">16:00</option>
+                                    <option value="16:30">16:30</option>
+                                    <option value="17">17:00</option>
+                                    <option value="17:30">17:30</option>
+                                    <option value="18">18:00</option>
+                                    <option value="18:30">18:30</option>
+                                    <option value="19">19:00</option>
+                                    <option value="19:30">19:30</option>
+                                    <option value="20">20:00</option>
+                                </select>
+
+                                <div class="form-row">
+                                    <input type="text" placeholder="Full Name">
+                                    <input type="text" placeholder="Phone Number">
+                                </div>
+
+                                <div class="form-row">
+                                    <input type="submit" value="Hire/Pay Now">
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+
+
+                </div>
+            </section>
+        </div>
+
+        <!-- Reservation Form End -->
+
+        <!-- Map Begin -->
+        <div class="map-section">
+            <div class="container py-3">
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-3" id="Map">
+                        <p class="pt-3">
+                            <strong>Find a Bike!</strong><br>
+                            Click and follow the map to find your nearest bike.
+
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-8 col-lg-9" style="padding-bottom: 20px;">
+                        <p><iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.6847140144514!2d-2.5496204840873617!3d51.500653019017186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48719033075a45fd%3A0x6cbd016adf75d564!2sUniversity%20of%20the%20West%20of%20England%20-%20UWE%20Bristol!5e0!3m2!1sen!2suk!4v1649063972567!5m2!1sen!2suk"
+                                width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade" alt="Map"></iframe></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Map End -->
+
+        <!-- Member Benefits -->
+        <div class="member-section" id="Member">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-8 col-lg-8">
+                        <p class="text-size centre">
+                            <strong>Pricing Plans</strong>
+                        </p>
+                        <p class="lead centre">
+                            £2 Single Trip (One-way trip) <br>
+                            £4.50 Day Pass (24-hour access) <br>
+                            £9.50 3-Day Pass (72-hour access) <br> <br>
+                            Annual Membership £62 <br>
+                            *The first 30 minutes of each ride are included in the membership,
+                            after 30 minutes extra usage fees apply, see Overage Fees below. <br><br>
+                            Premium Annual Membership £72 <br>
+                            *The first 45 minutes of each ride are included in the membership,
+                            after 45 minutes extra usage fees apply, see Overage Fees below. <br><br>
+                            Overage Fees: £2.50
+                        </p>
+                        <br>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <p class="centre">
+                            <strong>Become a Member</strong>
+                        </p>
+                        <p class="centre">
+                            Join as an Annual Member for only £62 per year. <br>
+                            Enjoy multiple 30-minute, station-to-station trips all
+                            year round for less than £6.30 a month or as little as 20p a day.
+                            <br><br>
+                            Join as a Premium Annual Member for only £72 per year.
+                            Enjoy unlimited 45 minutes, station-to-station trips all year round.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Member Benefits -->
+
+    </main>
+
+    <!-- Begin Footer -->
+
+    <footer class="container py-3">
+        <div class="row pt-3 pb-3 fixed-bottom bg-dark text-center">
+            <div class="col-4 col-md-4 col-lg-4">
+                <a href="https://www.facebook.com/" target="_blank"><img class="img-fluid socialmediaimages"
+                        src="Images/facebook.png"></a>
+            </div>
+            <div class="col-4 col-md-4 col-lg-4">
+                <a href="https://www.instagram.com/" target="_blank"><img class="img-fluid socialmediaimages"
+                        src="Images/instagram.png"></a>
+            </div>
+
+            <div class="col-4 col-md-4 col-lg-4">
+                <a href="https://twitter.com/?lang=en" target="_blank"><img class="img-fluid socialmediaimages"
+                        src="Images/twitter.png"></a>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
